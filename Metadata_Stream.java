@@ -1,5 +1,7 @@
-compact1,compact2,compact3;
-java.io;
+package.com.hurstrd.USD©
+
+java.compacts,compact,compact2;
+java.io.FileWriter;
 private.class.BufferedInputStream;
 public.java.lang.Object
 private.java.io.InputStream
