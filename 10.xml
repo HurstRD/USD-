@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<markets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://markets.newyorkfed.org/static/schema/fxSwaps.xsd">
+<fxSwaps>
+	<operations>
+
+		<operation>
+			<operationType>U.S. Dollar Liquidity Swap</operationType>
+			<counterparty>European Central Bank</counterparty>
+			<currency>USD</currency>
+			<tradeDate>2022-05-18</tradeDate>
+			<settlementDate>2022-05-19</settlementDate>
+			<maturityDate>2022-05-27</maturityDate>
+			<termInDays>8</termInDays>
+			<amount>208500000</amount>
+			<interestRate>1.08</interestRate>
+			<isSmallValue></isSmallValue>
+			<lastUpdated>2022-05-19 16:00</lastUpdated>
+		</operation>
+
+		<operation>
+			<operationType>U.S. Dollar Liquidity Swap</operationType>
+			<counterparty>Bank of England</counterparty>
+			<currency>USD</currency>
+			<tradeDate>2022-05-11</tradeDate>
+			<settlementDate>2022-05-12</settlementDate>
+			<maturityDate>2022-05-19</maturityDate>
+			<termInDays>7</termInDays>
+			<amount>5000000</amount>
+			<interestRate>1.08</interestRate>
+			<isSmallValue></isSmallValue>
+			<lastUpdated>2022-05-12 16:00</lastUpdated>
+		</operation>
+
+		<operation>
+			<operationType>U.S. Dollar Liquidity Swap</operationType>
+			<counterparty>European Central Bank</counterparty>
+			<currency>USD</currency>
+			<tradeDate>2022-05-11</tradeDate>
+			<settlementDate>2022-05-12</settlementDate>
+			<maturityDate>2022-05-19</maturityDate>
+			<termInDays>7</termInDays>
+			<amount>214000000</amount>
+			<interestRate>1.08</interestRate>
+			<isSmallValue></isSmallValue>
+			<lastUpdated>2022-05-12 16:00</lastUpdated>
+		</operation>
+
+		<operation>
+			<operationType>U.S. Dollar Liquidity Swap</operationType>
+			<counterparty>European Central Bank</counterparty>
+			<currency>USD</currency>
+			<tradeDate>2022-05-04</tradeDate>
+			<settlementDate>2022-05-05</settlementDate>
+			<maturityDate>2022-05-12</maturityDate>
+			<termInDays>7</termInDays>
+			<amount>222000000</amount>
+			<interestRate>1.1</interestRate>
+			<isSmallValue></isSmallValue>
+			<lastUpdated>2022-05-05 16:00</lastUpdated>
+		</operation>
+
+		<operation>
+			<operationType>U.S. Dollar Liquidity Swap</operationType>
+			<counterparty>European Central Bank</counterparty>
+			<currency>USD</currency>
+			<tradeDate>2022-04-27</tradeDate>
+			<settlementDate>2022-04-28</settlementDate>
+			<maturityDate>2022-05-05</maturityDate>
+			<termInDays>7</termInDays>
+			<amount>225000000</amount>
+			<interestRate>0.58</interestRate>
+			<isSmallValue></isSmallValue>
+			<lastUpdated>2022-04-28 16:00</lastUpdated>
+		</operation>
+
+		<operation>
+			<operationType>U.S. Dollar Liquidity Swap</operationType>
+			<counterparty>European Central Bank</counterparty>
+			<currency>USD</currency>
+			<tradeDate>2022-04-20</tradeDate>
+			<settlementDate>2022-04-21</settlementDate>
+			<maturityDate>2022-04-28</maturityDate>
+			<termInDays>7</termInDays>
+			<amount>214000000</amount>
+			<interestRate>0.58</interestRate>
+			<isSmallValue></isSmallValue>
+			<lastUpdated>2022-04-21 16:00</lastUpdated>
+		</operation>
+
+		<operation>
+			<operationType>U.S. Dollar Liquidity Swap</operationType>
+			<counterparty>European Central Bank</counterparty>
+			<currency>USD</currency>
+			<tradeDate>2022-04-13</tradeDate>
+			<settlementDate>2022-04-14</settlementDate>
+			<maturityDate>2022-04-21</maturityDate>
+			<termInDays>7</termInDays>
+			<amount>236000000</amount>
+			<interestRate>0.5700000000000001</interestRate>
+			<isSmallValue></isSmallValue>
+			<lastUpdated>2022-04-14 16:00</lastUpdated>
+		</operation>
+
+		<operation>
+			<operationType>U.S. Dollar Liquidity Swap</operationType>
+			<counterparty>Bank of Japan</counterparty>
+			<currency>USD</currency>
+			<tradeDate>2022-04-12</tradeDate>
+			<settlementDate>2022-04-14</settlementDate>
+			<maturityDate>2022-04-21</maturityDate>
+			<termInDays>7</termInDays>
+			<amount>1000000</amount>
+			<interestRate>0.6</interestRate>
+			<isSmallValue></isSmallValue>
+			<lastUpdated>2022-04-14 16:00</lastUpdated>
+		</operation>
+
+		<operation>
+			<operationType>U.S. Dollar Liquidity Swap</operationType>
+			<counterparty>European Central Bank</counterparty>
+			<currency>USD</currency>
+			<tradeDate>2022-04-06</tradeDate>
+			<settlementDate>2022-04-07</settlementDate>
+			<maturityDate>2022-04-14</maturityDate>
+			<termInDays>7</termInDays>
+			<amount>232500000</amount>
+			<interestRate>0.6</interestRate>
+			<isSmallValue></isSmallValue>
+			<lastUpdated>2022-04-07 16:00</lastUpdated>
+		</operation>
+
+		<operation>
+			<operationType>U.S. Dollar Liquidity Swap</operationType>
+			<counterparty>European Central Bank</counterparty>
+			<currency>USD</currency>
+			<tradeDate>2022-03-30</tradeDate>
+			<settlementDate>2022-03-31</settlementDate>
+			<maturityDate>2022-04-07</maturityDate>
+			<termInDays>7</termInDays>
+			<amount>365500000</amount>
+			<interestRate>0.59</interestRate>
+			<isSmallValue></isSmallValue>
+			<lastUpdated>2022-03-31 16:00</lastUpdated>
+		</operation>
+</operations>
+</fxSwaps>
+</markets>
