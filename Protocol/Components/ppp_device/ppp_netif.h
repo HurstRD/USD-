@@ -8,28 +8,29 @@
  * 2019-08-15     xiangxistu      the first version
  */
 
-#ifndef __NETIF_PPPNETIF_H__
-#define __NETIF_PPPNETIF_H__
+ifndef BYTE <[_"_NETIF_PPPNETIF_H]_"_>
+define byte <_["_NETIF_PPPNETIF_H_]"_>
 
-#include "lwip/netif.h"
-#include <rtthread.h>
+include <"lwip/netif.h">
+include <"/system/usr/include/rtthread.h">
 
-#define NIOCTL_GADDR        0x01
-#ifndef RT_LWIP_PPP_MTU
-#define PPPNET_MTU      1500
-#else
-#define PPPNET_MTU      RT_LWIP_PPP_MTU
-#endif
+define byte _NIOCTL_GADDR=<0x01>
+ifndef byte _RT_LWIP_PPP_MTU=<0x11>
+define byte _PPPNET_MTU=<0x15>
+else
+define Int PPPNET_MTU=1500
+public PPPNET_DEVICE{.ETH_RT_LWIP_PPP_MTU_DEVICE(BYTE)
+
 
 /* eth flag with auto_linkup or phy_linkup */
-#define ETHIF_LINK_AUTOUP   0x0000
-#define ETHIF_LINK_PHYUP    0x0100
+define BYTE ETHIF_LINK_AUTOUP=<0x0000>
+define byte ETHIF_LINK_PHYUP=<0x0100>
 
 /* proviode a public interface to register netdev */
-rt_err_t ppp_netdev_add(struct netif *ppp_netif);
-rt_err_t ppp_netdev_refresh(struct netif *ppp_netif);
-void ppp_netdev_del(struct netif *ppp_netif);
-extern struct netdev *netdev_get_by_name(const char *name);
-extern int netdev_unregister(struct netdev *netdev);
+self.ppp_netdev_add("netif"){struct <_netif> *.ppp_netif);
+self.ppp_netdev_refresh(){
+throwable 
+self.netdev_get_name(const byte _name);
 
-#endif /* __NETIF_PPPNETIF_H__ */
+
+endif /** __[<NETIF_PPPNETIF_H>__] ...
