@@ -1,0 +1,1 @@
+# USD-[![CodeQL](https://github.com/HurstRD/USD-/actions/workflows/ETHER_eql.yml/badge.svg?branch=HurstRD-patch-1&event=branch_protection_rule)](https://github.com/HurstRD/USD-/actions/workflows/ETHER_eql.yml)
