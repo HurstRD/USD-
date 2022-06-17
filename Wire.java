@@ -14,7 +14,7 @@ public class Wire implements BufferReader{
    transaction(){
    throwable IOExceptian(<action Wire>(.CopyLines));
    }
-   return 0;
+   return a_Wire.Transaction();
   }
  }
 };
