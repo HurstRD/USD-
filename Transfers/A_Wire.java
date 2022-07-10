@@ -12,7 +12,7 @@ public class Wire implements BufferReader{
    new transaction(){
    this.Transaction(){
    transaction(){
-   throwable IOExceptian(<action Wire>(.CopyLines));
+   throws IOExceptian(<action Wire>(.CopyLines));
    }
    return a_Wire.Transaction();
   }
