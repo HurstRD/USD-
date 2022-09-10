@@ -10,9 +10,9 @@ public static void main(Strings arge[]){
 public class Wire implements BufferReader{
    new Wire =a_Wire Transaction("transaction");
    new transaction(){
-   this.Transaction(){
-   transaction(){
-   throwable IOExceptian(<action Wire>(.CopyLines));
+  return this.Transaction(){
+   synchronized transaction(){
+   throws IOException(<action Wire>(.CopyLines));
    }
    return a_Wire.Transaction();
   }
